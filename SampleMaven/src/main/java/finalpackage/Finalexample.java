@@ -1,6 +1,6 @@
 package finalpackage;
 
-public class Finalexample {
+public final class Finalexample {
 	
 	final int a= 10;
 	final int b;//blank final variable or uninitialized
@@ -9,6 +9,11 @@ public class Finalexample {
 		
 		b=10;
 		
+	}
+	
+	public final void m1() {
+		
+		System.out.println("This is a final method");
 	}
 	
 	
