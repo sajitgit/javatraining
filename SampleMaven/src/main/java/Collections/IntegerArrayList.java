@@ -12,6 +12,7 @@ public class IntegerArrayList {
 		l1.add(20);
 		l1.add(30);
 		l1.add(40);
+		System.out.println(l1);
 
 
 	}
